@@ -1,11 +1,14 @@
-###Flicker-Images by Romit M
+###Flickr-Images by Romit M
 
-Flicker images is program to load images using Flicker web service. I have write category of UIImageView to load image from given ur. Also i have used UICollectionView to display multiple images. you can check ViewTransition class to open animation of details screen from UICollectionView.
+Flickr images is program to load images using Flickr web service. I have write category of UIImageView to load image from given ur. Also i have used UICollectionView to display multiple images. you can check ViewTransition class to open animation of details screen from UICollectionView.
 
 Before you run Project change FlickrAPIKey. You can find in WebService class.
 ```objective-c
-NSString *const FlickrAPIKey = FLICKER_API_KEY_HERE;
+NSString *const FlickrAPIKey = FLICKR_API_KEY_HERE;
 ```
+
+[Get Flickr api key](https://www.flickr.com/services/api/misc.api_keys.html)
+
 ###Classes
 ===========
 AppDelegate
